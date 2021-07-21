@@ -1,0 +1,156 @@
+body {
+    background-color: thistle;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    box-sizing: border-box;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    top: 10%;
+}
+nav {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: flex-end;
+    background-color: #303030;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    top: 0;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #484848;
+    width: 75px;
+    height: 100%;
+    margin: 0 1%;
+    padding: 0 1%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    margin-top: 60px;
+}
+aside {
+    box-sizing: border-box;
+    position: fixed;
+    float: left;
+    background-color: white;
+    height: 91vh;
+    width: 20%;
+    overflow-wrap: break-word;
+}
+form {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+.signup-container {
+    margin: 10%;
+    background-color: #42a7f5;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+.signup-container input {
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+}
+.author {
+    font-size: small;
+    background-color: whitesmoke;
+    width: auto;
+    padding: 0 10px;
+    display: inline-block;
+    margin: 0;
+    
+}
+.subject {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+#forum-box {
+    box-sizing: border-box;
+    margin-right: 5%;
+    margin-top: 5%;
+    float: right;
+    background-color: blanchedalmond;
+    width: 70%;
+    height: auto;
+    border: 1px solid black;
+    padding: 1%;
+}
+#post {
+    height: 50px;
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px;
+
+}
+#post-form {
+    background-color: #303030;
+    width: 400px;
+    height: 450px;
+    position:fixed;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+
+}
+#post-form h1 {
+    color: white;
+}
+#subject-bar span {
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 5px;
+    overflow: scroll;
+}
+.resource-template {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
